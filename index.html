@@ -1,114 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Adeel Haider | Portfolio</title>
-  <link rel="stylesheet" href="assets/css/style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adeel Haider | Senior Web & eCommerce Developer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    * {margin:0; padding:0; box-sizing:border-box;}
+    body {font-family: 'Inter', sans-serif; color:#111; line-height:1.6; background:#f9f9f9;}
+    header {background:#1a1a1a; color:#fff; padding:20px 50px; display:flex; justify-content:space-between; align-items:center;}
+    header h1 {font-weight:700;}
+    header nav ul {display:flex; list-style:none; gap:20px;}
+    header nav ul li a {color:#fff; text-decoration:none; font-weight:600;}
+    header nav ul li a:hover {color:#f4d03f;}
+    section {padding:80px 50px;}
+    #hero {background:#f4f4f4; text-align:center; padding:100px 20px;}
+    #hero h2 {font-size:2.5rem; margin-bottom:20px; color:#111;}
+    #hero p {font-size:1.2rem; max-width:700px; margin:0 auto;}
+    h2.section-title {font-size:2rem; margin-bottom:40px; color:#111; text-align:center;}
+    .skills, .experience, .projects {display:flex; flex-wrap:wrap; gap:20px; justify-content:center;}
+    .card {background:#fff; padding:20px; border-radius:10px; box-shadow:0 5px 15px rgba(0,0,0,0.1); flex:1 1 300px; max-width:350px;}
+    .card h3 {margin-bottom:10px; color:#1a1a1a;}
+    .card p {font-size:0.95rem; color:#333;}
+    .projects a {color:#1a73e8; text-decoration:none;}
+    .projects a:hover {text-decoration:underline;}
+    footer {text-align:center; padding:20px; background:#1a1a1a; color:#fff;}
+    @media(max-width:768px){header{flex-direction:column;} header nav ul{flex-direction:column; gap:10px; margin-top:10px;}}
+  </style>
 </head>
 <body>
-  <header>
-    <nav>
-      <h1>Adeel Haider</h1>
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
 
-  <section id="hero">
-    <h2>Senior eCommerce Developer</h2>
-    <p>8+ years of experience in Shopify, Frontend Development, and scalable web solutions.</p>
-  </section>
-
-  <section id="about">
-    <h2>About Me</h2>
-    <p>I am a Senior eCommerce Developer at Computan with over 8 years of experience in web development. 
-    I specialize in Shopify, React, Next.js, and performance optimization, building high-performing and scalable solutions.</p>
-  </section>
-
-  <section id="skills">
-    <h2>Skills</h2>
+<header>
+  <h1>Adeel Haider</h1>
+  <nav>
     <ul>
-      <li>Shopify (Liquid, Theme Customization, Apps, APIs)</li>
-      <li>React, Next.js, Tailwind CSS</li>
-      <li>Node.js, TypeScript</li>
-      <li>Performance Optimization & SEO</li>
-      <li>GitHub & Agile Workflows</li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
     </ul>
-  </section>
+  </nav>
+</header>
 
-  <section id="projects">
-    <h2>Projects</h2>
-    <div class="project">
-      <h3>Custom Shopify Themes</h3>
-      <p>Developed tailored Shopify themes optimized for performance and user experience.</p>
+<section id="hero">
+  <h2>Senior Web & eCommerce Developer</h2>
+  <p>Helping businesses grow their digital presence with scalable Shopify, WordPress, and custom web solutions. 8+ years experience in eCommerce, Frontend Development, and team leadership.</p>
+</section>
+
+<section id="about">
+  <h2 class="section-title">About Me</h2>
+  <p style="max-width:800px; margin:0 auto; text-align:center;">I am a Senior eCommerce Developer and team lead with over 8 years of experience building high-performance websites and web apps. I specialize in Shopify, WordPress, BigCommerce, React, Next.js, and optimizing UI/UX for speed and conversions.</p>
+</section>
+
+<section id="skills">
+  <h2 class="section-title">Skills</h2>
+  <div class="skills">
+    <div class="card"><h3>Frontend</h3><p>HTML, CSS, JavaScript, jQuery, Bootstrap, Tailwind CSS, React, Next.js</p></div>
+    <div class="card"><h3>eCommerce Platforms</h3><p>Shopify, BigCommerce, WordPress, Custom Apps & API Integration</p></div>
+    <div class="card"><h3>Development Tools</h3><p>Node.js, TypeScript, GitHub, Liquid, Performance Optimization, SEO</p></div>
+    <div class="card"><h3>Languages</h3><p>English, Urdu, Punjabi, Persian — Full Professional Proficiency</p></div>
+  </div>
+</section>
+
+<section id="experience">
+  <h2 class="section-title">Experience</h2>
+  <div class="experience">
+    <div class="card">
+      <h3>Kikstart Ecom</h3>
+      <p>Senior eCommerce Developer + Team Lead | Canada | 08/2021 - Present</p>
+      <p>Leading Shopify projects, mentoring developers, building high-performance eCommerce solutions.</p>
     </div>
-    <div class="project">
-      <h3>Headless Shopify Store</h3>
-      <p>Integrated Shopify with Next.js to build a fast, scalable headless commerce solution.</p>
+    <div class="card">
+      <h3>Computan</h3>
+      <p>Senior eCommerce Developer | Lahore | 04/2021 - Present</p>
+      <p>Developing Shopify, BigCommerce stores, optimizing UI/UX and website performance.</p>
     </div>
-  </section>
+    <div class="card">
+      <h3>Vistabit LLC</h3>
+      <p>Web Designer & Developer | Faisalabad | 03/2018 - 03/2021</p>
+      <p>Built WordPress, Shopify, and BigCommerce websites. PSD to HTML, interactive designs, front-end development.</p>
+    </div>
+  </div>
+</section>
 
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>Email: adeelhaider@example.com</p>
-    <p>LinkedIn: <a href="https://linkedin.com/in/adeelhaider" target="_blank">linkedin.com/in/adeelhaider</a></p>
-    <p>GitHub: <a href="https://github.com/adeelhaider" target="_blank">github.com/adeelhaider</a></p>
-  </section>
+<section id="projects">
+  <h2 class="section-title">Projects</h2>
+  <div class="projects">
+    <div class="card">
+      <h3>Fitness Outlet</h3>
+      <a href="https://www.thefitnessoutlet.com/" target="_blank">thefitnessoutlet.com</a>
+    </div>
+    <div class="card">
+      <h3>All Cornhole</h3>
+      <a href="https://allcornhole.com/" target="_blank">allcornhole.com</a>
+    </div>
+    <div class="card">
+      <h3>Sleek Shop</h3>
+      <a href="https://www.sleekshop.com/" target="_blank">sleekshop.com</a>
+    </div>
+    <div class="card">
+      <h3>Ahmady Persian Rugs</h3>
+      <a href="https://ahmadyspersianrugs.com/" target="_blank">ahmadyspersianrugs.com</a>
+    </div>
+    <div class="card">
+      <h3>Peritus Construction</h3>
+      <a href="https://peritusconstruction.com/" target="_blank">peritusconstruction.com</a>
+    </div>
+  </div>
+</section>
 
-  <footer>
-    <p>© 2025 Adeel Haider. All Rights Reserved.</p>
-  </footer>
+<section id="contact">
+  <h2 class="section-title">Contact</h2>
+  <p style="text-align:center;">Email: <a href="mailto:adeelciit09@gmail.com">adeelciit09@gmail.com</a> | Phone: 0306-1389677 | Location: Multan, Pakistan</p>
+  <p style="text-align:center;">LinkedIn: <a href="https://linkedin.com/in/adeelhaider" target="_blank">linkedin.com/in/adeelhaider</a> | GitHub: <a href="https://github.com/adeelhaider" target="_blank">github.com/adeelhaider</a></p>
+</section>
+
+<footer>
+  <p>© 2025 Adeel Haider. All Rights Reserved.</p>
+</footer>
+
 </body>
 </html>
-
-<style>
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  line-height: 1.6;
-}
-header {
-  background: #111;
-  color: #fff;
-  padding: 10px 20px;
-}
-header nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-header nav ul {
-  list-style: none;
-  display: flex;
-  gap: 15px;
-}
-header nav ul li a {
-  color: #fff;
-  text-decoration: none;
-}
-#hero {
-  background: #f4f4f4;
-  padding: 50px;
-  text-align: center;
-}
-section {
-  padding: 40px 20px;
-}
-.project {
-  margin-bottom: 20px;
-}
-footer {
-  text-align: center;
-  background: #111;
-  color: #fff;
-  padding: 15px;
-  margin-top: 20px;
-}
-
-</style>
